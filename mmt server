@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      #server_name h2{
+        text-align: center;
+        font-size: 45px;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 0;
+      }
+      #servernamedecoration div{
+        border-bottom: 1px gray solid;
+        margin: 0;
+        padding: 20px;
+        padding-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+   <span id = 'server_name'><h2><?php echo $_GET['server']; ?> 서버<h2></span>
+   <div id ="servernamedecoration"><div></div></div>
+</html>
